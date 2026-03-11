@@ -1,0 +1,23 @@
+# C/C++ 빌드 산출물·바이너리
+*.o
+*.obj
+*.out
+a.out
+*.exe
+
+# macOS
+*.dSYM/
+
+# Visual Studio / MSVC
+*.ilk
+*.pdb
+*.sln
+*.vcxproj*
+x64/
+x86/
+Debug/
+Release/
+
+# 확장자 없는 실행 파일 (g++ -o 18258 → 18258 생성)
+# BaekJoon 아래 숫자만 있는 파일(실행 파일) 무시
+BaekJoon/[0-9][0-9]*
